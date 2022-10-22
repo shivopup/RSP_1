@@ -29,7 +29,7 @@ while mcount < 2 and pcount < 2:
 
         while mcount < 2 and pcount < 2:
 
-            machine = random.choice(variation)
+        machine = random.choice(variation)
 
             players_choice = input('Make your choice!\n 1-Rock\n 2-Scissors\n 3-paper\n 4-Come back to the main menu\n')
 

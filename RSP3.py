@@ -50,7 +50,7 @@ def clickpaper():
     mchoice = random.choice(variation)
 
     if mchoice == 'paper':
-        print('Draw')
+        print('Dra')
         messagebox.showinfo('Draw', f'You-{pchoice}\nOpponent-{mchoice}\nNo winners!')
     elif mchoice == 'rock':
         print('Win!')
